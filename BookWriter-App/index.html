@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Book store</title>
+
+    <style>
+        .success {
+            color: white;
+            padding: 1.3rem;
+            background: green;
+            border-radius: 1rem;
+        }
+        .error {
+            color: white;
+            padding: 1.3rem;
+            background: red;
+            border-radius: 1rem;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+<form id="book-list">
+<H1>Add book</H1>
+    <div>
+<label for="title"> Title </label>
+<input type="text" name="" id="title" class="u-full-width">
+    </div>
+    <div>
+<label for="auther"> Auther </label>
+<input type="text" name="" id="author" class="u-full-width">
+    </div>
+    <div>
+<label for="title"> ISBN </label>
+<input type="text" name="" id="isbn" class="u-full-width">
+    </div>
+
+    <div>
+<input type="submit" name="" id="submit" value="submit">
+    </div>
+
+    <table id="book-list2" class="u-full-width">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Auther</th>
+                <th>ISBN</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+
+</form>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
